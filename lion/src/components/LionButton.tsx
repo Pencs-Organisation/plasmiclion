@@ -1,6 +1,6 @@
 // components/LionButton.tsx
 import React, { useEffect, useRef } from 'react';
-import '@lion/core/lion-button.js';
+import '@lion/ui/button.js';
 
 interface LionButtonProps {
   children?: React.ReactNode;

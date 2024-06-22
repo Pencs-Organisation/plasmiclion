@@ -14,7 +14,15 @@ import LionButton from '../src/components/LionButton';
 // Register LionButton component
 registerComponent(LionButton, {
   name: 'LionButton',
-  props: {},
+  props: {
+    children: {
+      type: "slot",
+      defaultValue: {
+        type: "text",
+        value: "LionButton",
+      },
+    },
+  },
   importPath: './src/components/LionButton'
 });
 
